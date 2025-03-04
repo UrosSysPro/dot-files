@@ -1,3 +1,6 @@
+local map=vim.keymap.set
+local fn = vim.fn
+
 return {
   "scalameta/nvim-metals",
   dependencies = {
