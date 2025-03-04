@@ -24,6 +24,7 @@ vim.g.maplocalleader = "\\"
 -- Setup lazy.nvim
 require("lazy").setup({
   spec = {
+--	{ import = "plugins/init" },
 	{ import = "plugins/nvim-metals" },
 	{ import = "plugins/telescope" }
   },

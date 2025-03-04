@@ -1,7 +1,5 @@
 require('config.lazy')
 
-print("hello")
-
 vim.cmd("colorscheme habamax")
 
 vim.g.counter=0
