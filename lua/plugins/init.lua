@@ -1,5 +1,7 @@
 return {
-  "nothing/nothing",
+
+	enabled=false,
+	"nothing/nothing",
   dependencies = { },
   ft = { "txt" },
   opts = function()
