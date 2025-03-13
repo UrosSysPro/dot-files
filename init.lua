@@ -1,5 +1,9 @@
 require('config.lazy')
+vim.opt.number=true
+vim.opt.tabstop=4
+vim.opt.shiftwidth=4
 
+--vim.opt.relativenumber=true
 vim.cmd("colorscheme habamax")
 vim.keymap.set('n','<C-b>', function()
 	vim.cmd('w')
