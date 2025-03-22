@@ -16,7 +16,6 @@ return {
 		config = function()
 			local lsp=require("lspconfig")
 			lsp.lua_ls.setup {}
-			lsp.metals.setup{}
 			lsp.clangd.setup{}
 		end
 	}
