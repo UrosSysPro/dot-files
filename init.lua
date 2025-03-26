@@ -2,9 +2,8 @@ require('config.lazy')
 vim.opt.number=true
 vim.opt.tabstop=4
 vim.opt.shiftwidth=4
-
 --vim.opt.relativenumber=true
-vim.cmd("colorscheme habamax")
+vim.cmd("colorscheme monokai-pro")
 vim.keymap.set('n','<C-b>', function()
 	vim.cmd('w')
 	vim.cmd('Ex')
@@ -22,4 +21,3 @@ end)
 vim.keymap.set('n','<C-Space>', function()
 	vim.print('duplicate line')
 end)
-
