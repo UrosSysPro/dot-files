@@ -24,13 +24,8 @@ vim.g.maplocalleader = "\\"
 -- Setup lazy.nvim
 require("lazy").setup({
 	spec = {
-		--	{ import = "plugins/init" },
-		--j	{ import = "plugins/nvim-metals" },
-		--	{ import = "plugins/telescope" },
-		--	{ import = "plugins/mini"},
 		{ import = "plugins" }
 	},
-	-- Configure any other settings here. See the documentation for more details.
 	-- colorscheme that will be used when installing plugins.
 	install = { colorscheme = { "habamax" } },
 	-- automatically check for plugin updates
