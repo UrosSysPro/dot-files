@@ -35,6 +35,7 @@ return {
 		config = function()
 			local lsp=require("lspconfig")
 			lsp.lua_ls.setup {}
+			lsp.kotlin_language_server.setup{}
 			lsp.clangd.setup{}
 		end
 	}
