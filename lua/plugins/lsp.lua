@@ -37,6 +37,7 @@ return {
 			lsp.lua_ls.setup {}
 			lsp.kotlin_language_server.setup{}
 			lsp.clangd.setup{}
+			lsp.arduino_language_server.setup{}
 		end
 	}
 }
