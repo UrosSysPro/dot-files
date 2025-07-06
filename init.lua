@@ -5,8 +5,7 @@ vim.opt.shiftwidth=4
 --vim.opt.relativenumber=true
 vim.cmd("colorscheme monokai-pro")
 vim.keymap.set('n','<C-b>', function()
-	vim.cmd('w')
-	vim.cmd('Ex')
+	vim.cmd('Neotree')
 end)
 vim.keymap.set('n','<C-q>','<cmd>wqall')
 vim.keymap.set('n','<C-d>','yyp')
